@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator | Jade Nguyen</title>
+</head>
+
+<body>
+    <h1>Juicy's Right Calculator</h1>
+    <div class="page">
+        <div class="blockLeft"></div>
+        <div class="cal">
+            <input type="text" class="outputTextBox" id="result">
+            <div >
+
+            </div>
+            <div class="buttcd">
+                <button id="cd" onclick="clearInputs()" >Clear</button>
+                <button id="cd">Delete</button>
+            </div>
+
+            <div class="butt">
+                <button class="butts" value="1" onclick="inputVal(1)">1</button>
+                <button class="butts" value="2" onclick="inputVal(2)">2</button>
+                <button class="butts" value="3" onclick="inputVal(3)">3</button>
+                <button onclick="add()" class="butts"  value="">+</button>
+            </div>
+            <div class="butt">
+                <button class="butts" value="4" onclick="inputVal(4)">4</button>
+                <button class="butts" value="5" onclick="inputVal(5)">5</button>
+                <button class="butts" value="6" onclick="inputVal(6)">6</button>
+                <button class="butts">-</button>
+            </div>
+            <div class="butt">
+                <button class="butts" value="7" onclick="inputVal(7)">7</button>
+                <button class="butts" value="8" onclick="inputVal(8)">8</button>
+                <button class="butts" value="9" onclick="inputVal(9)">9</button>
+                <button class="butts">x</button>
+            </div>
+            <div class="butt">
+                <button class="butts" value="0" onclick="inputVal(0)">0</button>
+                <button class="butts">.</button>
+                <button class="butts">=</button>
+                <button class="butts">/</button>
+            </div>
+        </div>
+        <div class="blockRight"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
